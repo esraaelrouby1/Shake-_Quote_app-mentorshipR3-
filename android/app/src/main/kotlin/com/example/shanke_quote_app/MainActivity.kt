@@ -1,12 +1,3 @@
-// package com.example.shanke_quote_app
-
-// import io.flutter.embedding.android.FlutterActivity
-
-// class MainActivity : FlutterActivity()
-
-// ==================== ANDROID KOTLIN CODE ====================
-// File: android/app/src/main/kotlin/com/example/shake_quote/MainActivity.kt
-
 
 package com.example.shanke_quote_app
 
@@ -31,8 +22,8 @@ class MainActivity: FlutterActivity(), SensorEventListener {
     
     // Shake detection parameters
     private var lastShakeTime: Long = 0
-    private val SHAKE_THRESHOLD = 15.0 // Acceleration threshold
-    private val SHAKE_TIME_WINDOW = 500 // Minimum time between shakes (ms)
+    private val SHAKE_THRESHOLD = 15.0 
+    private val SHAKE_TIME_WINDOW = 500 
     
     override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
         super.configureFlutterEngine(flutterEngine)
